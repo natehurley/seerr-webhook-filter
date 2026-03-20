@@ -45,6 +45,7 @@ app.post("/webhook", async (req, res) => {
   const userId = data.request?.requestedBy_jellyfinUserId;
   const username = data.request?.requestedBy_username;
 
+  console.log("📩 Received:", data);
   console.log("📩 Event:", event);
 
   // =========================
