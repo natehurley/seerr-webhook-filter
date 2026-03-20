@@ -1,1 +1,0 @@
-# seerr-webhook-filter
