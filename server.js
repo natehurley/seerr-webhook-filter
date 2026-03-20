@@ -115,6 +115,6 @@ app.get("/", (req, res) => {
   res.send("Seerr Webhook OK");
 });
 
-app.listen(3000, () => {
+app.listen(3456, () => {
   console.log("🚀 Webhook server running on port 3000");
 });
